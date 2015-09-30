@@ -83,3 +83,14 @@
         <div><img class="four columns" src="/images/lord3.jpg"></div>
     </div>
 </div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+var $root = $('html, body');
+$('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
