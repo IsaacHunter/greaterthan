@@ -38,6 +38,10 @@
     a {
         cursor: pointer;
     }
+    hr {
+      margin-top: 10rem;
+      margin-bottom: 10.5rem;
+    }
     .burger-buns{
       padding: 80px 0;
     }
@@ -79,6 +83,20 @@
       margin: 0 auto;
       display: block;
     }
+    .last-week-img {
+      margin: 0 auto;
+      display: block;
+      border-radius: 10px;
+    }
+    .runner-up {
+      height: auto;
+      max-width: 100px;
+      opacity: .6;
+    }
+    .winner {
+      height: auto;
+      max-width: 220px;
+    }
     .title {
       font-size: 13px;
       letter-spacing: 2px;
@@ -98,6 +116,9 @@
     @media (min-width: 768px) {
         .gt-badge {
             padding-left: 15%;
+        }
+        .runner-up{
+          margin-top: 50px;
         }
     }
     @media (min-width: 550px) {
@@ -156,6 +177,24 @@
 </div>
 <div class="clearfix">
   <div class="container burger-buns">
+    <h6>Last Week's Winner</h6>
+    <div class="row u-full-width">
+      <div class="one-third column">
+        <img class="last-week-img runner-up u-max-full-width" src="/images/lord3.jpg">
+        <p class="title">Landon</p>
+      </div>
+      <div class="one-third column">
+        <img class="last-week-img winner u-max-full-width" src="/images/lord3.jpg">
+        <p class="title">austin</p>
+      </div>
+      <div class="one-third column">
+        <img class="last-week-img runner-up u-max-full-width" src="/images/lord3.jpg">
+        <p class="title">Isaac</p>
+      </div>
+    </div>
+
+    <hr>
+
     <h6>The Designers</h6>
     <div class="row u-full-width">
       <div class="one-third column">
